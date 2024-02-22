@@ -8,7 +8,7 @@
 
 **Basic concepts**
 
-*Phase:* is a homogeneous region of matter in which there is no spatial variation in average density, energy, composition, or other macroscopic properties.
+*Phase:* it is a homogeneous region of matter in which there is no spatial variation in average density, energy, composition, or other macroscopic properties.
 
 At constant T and P in a single-component system, the phase that is observed is the one which has the lowest Gibbs free energy per particle, or, equivalently, the lowest chemical potential μ(T, P).
 
