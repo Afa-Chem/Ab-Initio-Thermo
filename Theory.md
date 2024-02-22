@@ -6,7 +6,7 @@
 - How should we normalize the energy of the different materials?
 - We need a method that includes information about the temperature and pressure of O$`_2`$. 
 
-**Basic concepts**
+**Basic principles**
 
 *Phase:* it is a homogeneous region of matter in which there is no spatial variation in average density, energy, composition, or other macroscopic properties.
 
