@@ -27,7 +27,7 @@ Where $`p_{O_2}^o`$ is the pressure of oxygen at 1 bar. Other useful relation is
 
 $$  \mu_{O_2} = E_{O_2}^{total} + \tilde \mu_{O_2}^o (T, p^o) + kT \ ln(p_{O_2}/p_{O_2}^o) $$
 
-Here, $E_{O_2}^{total}$ is the total energy of an isolated oxygen molecule at $`T = 0`$ K. The second term on the rigth is the difference in the chemical potential of O$`_2`$ between $`T = 0 `$ K and the temperature of interest at the reference pressure. 
+Here, $E_{O_2}^{total}$ is the total energy of an isolated oxygen molecule at $`T = 0`$ K. The second term on the rigth is the difference in the chemical potential of O$`_2`$ between $`T = 0 `$ K and the temperature of interest at the reference pressure. This chemical potential difference can be evaluated in the JANAF Thermochemical Tables. 
 
 The chemical potential of molecular oxygen and atomic oxygen are related by 
 
