@@ -13,9 +13,11 @@
 At constant T and P in a single-component system, the phase that is observed is the one which has the lowest Gibbs free energy per particle, or, equivalently, the lowest chemical potential μ(T, P).
 
 ## Theory
+Grand potential associated with metal oxide
 
+$$ \Omega (T,\mu_O, \mu_M) = E(N_M, N_O) - TS - \mu_O N_O - \mu_M N_M$$
 
-
+Where E is the internal energy of the metal oxide, S is the material's entropy, and $`\mu_a`$ is the chemical potential of atomic species $`a`$. We can use this expression to define the grand potential of each material $`\Omega_i`$
 
 ## References
 * David S. Sholl, Janice A. Steckel. (2009). *Density Functional Theory: A Practical Introduction*. DOI:10.1002/9780470447710
