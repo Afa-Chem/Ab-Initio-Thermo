@@ -37,17 +37,22 @@ $$  \mu_O = \dfrac{1}{2} \mu_{O_2}  $$
 ## Theory for metal clusters
 The grand potential ($` \Omega `$) divided by N and assuming a constant number of metal atoms (e.g. Pt$`_2 `$)
 
-$$  \omega (T,\mu_O, n) = \Delta E_{F,corr} (T) - T \cdot S_{Pt_2O_n} + T \cdot S_{Pt_2}  - n \cdot \tilde \mu_{O_2} (p, T)  $$
+$$  \omega (T,\mu_O, n) = \Delta E_{F,corr} (T) - T \cdot S_{Pt_2(O_2)n} + T \cdot S_{Pt_2}  - n \cdot \tilde \mu_{O_2} (p, T)  $$
 
 Where $n$ is the number of oxygen molcules. A (p,T)-phase diagram can be constructed using the potential $` \omega `$. We can know the number $n$ of O$`_2`$ molecules which minimizes $` \omega `$
 for a specified temperature and oxygen pressure. 
 
-The formation energy of Pt$`_2`$O$`_n`$ clusters ($` \Delta E_{F,corr} (T) `$) is calculated as 
+The formation energy of Pt$`_2`$(O$`_2`$)$`_n`$ clusters ($` \Delta E_{F,corr} (T) `$) is calculated as 
 
-$$  \Delta E_{F,corr} = E_{Pt_2 O_{n}} - E_{Pt_2} - n\cdot  E_{O_2} + E_{corr} (T) $$
+$$  \Delta E_{F,corr} = E_{Pt_2 (O_2)n} - E_{Pt_2} - n\cdot  E_{O_2} + E_{corr} (T) $$
 
+E$`_{corr}`$ is introduced to account of the zero-point energy. The (T,p) dependence part of the chemical potential is expressed as 
 
+$$  \tilde \mu_{O_2} (p,T) = \Delta H_{O_2} (p_0, T) - T\cdot S_{O_2} (p_0, T) + RT \ ln(p/p_0) $$
 
+Where $` \Delta H_{O_2} `$  and $` S_{O_2} `$ are taken from the NIST database. Addionally, note that 
+
+$$  \mu_{O_2}  = E_{O_2} + \tilde \mu_{O_2}   $$
 
 
 ## References
