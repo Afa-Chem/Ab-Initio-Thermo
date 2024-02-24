@@ -12,7 +12,7 @@
 
 At constant T and P in a single-component system, the phase that is observed is the one which has the lowest Gibbs free energy per particle, or, equivalently, the lowest chemical potential μ(T, P).
 
-## Theory
+## General Theory
 Grand potential of a metal oxide can be expressed as 
 
 $$ \Omega (T,\mu_O, \mu_M) = E(N_M, N_O) - TS - \mu_O N_O - \mu_M N_M$$
@@ -32,6 +32,20 @@ Here, $E_{O_2}^{total}$ is the total energy of an isolated oxygen molecule at $`
 The chemical potential of molecular oxygen and atomic oxygen are related by 
 
 $$  \mu_O = \dfrac{1}{2} \mu_{O_2}  $$
+
+
+## Theory for metal clusters
+The grand potential ($` \Omega `$) divided by N and assuming a constant number of metal atoms (e.g. Pt$`_2 `$)
+
+$$  \omega (T,\mu_O, n) = \Delta E_{F,corr} (T) - T \cdot S_{Pt_2O_n} + T \cdot S_{Pt_2}  - n \cdot \tilde \mu_{O_2} (p, T)  $$
+
+Where $n$ is the number of oxygen molcules. A (p,T)-phase diagram can be constructed using the potential $` \omega `$. We can know the number $n$ of O$`_2`$ molecules which minimizes $` \omega `$
+for a specified temperature and oxygen pressure. 
+
+The formation energy of Pt$`_2`$O$`_n`$ clusters ($` \Delta E_{F,corr} (T) `$) is calculated as 
+
+$$  \Delta E_{F,corr} = E_{Pt_2 O_{n}} - E_{Pt_2} - n\cdot  E_{O_2} + E_{corr} (T) $$
+
 
 
 
