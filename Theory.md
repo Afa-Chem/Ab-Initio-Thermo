@@ -42,3 +42,5 @@ $$  \mu_O = \dfrac{1}{2} \mu_{O_2}  $$
 * Karsten Reuter and Matthias Scheffler. *Physical Review B*. 2001, 65, 035406. DOI: 10.1103/PhysRevB.65.035406
 
 * Mina Taleblou, Matteo Farnesi Camellone, Stefano Fabris, and Simone Piccinin. *The Journal of Physical Chemistry C*. 2022, 126, 10880−10888. DOI: 10.1021/acs.jpcc.2c02176
+
+* David Buceta et al. *Chemistry -- A European Journal*. 2023, 29, e202301517. DOI: 10.1002/chem.202301517  
