@@ -104,8 +104,24 @@ $$
 q(V,T) = q_{elec}(T)q_{trans}(V,T)q_{rot}(T)q_{vib}(T)
 $$
 
-#### Electronic contribution 
+#### Molecular electronic partition function
 
+The electronic contribution of entropy and internal energy is 
+
+$$
+U_{elec} = 0 \qquad \qquad S_{elec} = R \ ln(2S + 1)
+$$
+
+#### Molecular translational partition function
+
+The usual standard state is 1 atm pressure (corresponding to a standard-state molar volume of 24.5 L at 298 K). 
+The thermodynamic potential for the translational contribution gives 
+
+$$
+U_{trans} = \dfrac{3}{2} RT \qquad \qquad S_{trans}^{o} = R  ln \bigg [ \bigg ( \dfrac{2\pi M k T}{h^2} \bigg )^{3/2} \dfrac{kT}{P^o} \bigg ] + \dfrac{5}{2}  R
+$$
+
+The superscript 'o' indicates that a "standard state" is being referred. 
 
 
 ## References
