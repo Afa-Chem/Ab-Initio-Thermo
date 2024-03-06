@@ -99,6 +99,7 @@ $$
 Where the factor $`1/N! `$ derives from the quantum mechanical indistinguishability of the particles. Now we assume
 that the molecular energy $` \varepsilon `$ can be expressed as a separable sum of electronic, translational, rotational, 
 and vibrational terms. 
+
 $$
 q(V,T) = q_{elec}(T)q_{trans}(V,T)q_{rot}(T)q_{vib}(T)
 $$
