@@ -54,6 +54,23 @@ Where $` \Delta H_{O_2} `$  and $` S_{O_2} `$ are taken from the NIST database. 
 
 $$  \mu_{O_2}  = E_{O_2} + \tilde \mu_{O_2}   $$
 
+## Thermochemistry
+
+#### Zero-point vibrational energy
+
+$$ E_0 = U_0 = E_{elec} + \sum_{i}^{modes} \dfrac{1}{2} h \omega_i  $$
+
+Where $` E_{elec}`$ is the energy of the stationary point on the PES. 
+
+#### Canonical ensemble
+
+The partition function for the canonical ensemble is written as 
+
+$$
+Q(N,V,T) = \sum_i e^{E_i(N,V)/kT}
+$$
+
+Where i runs over all possible energy states of the system.  
 
 ## References
 * David S. Sholl, Janice A. Steckel. (2009). *Density Functional Theory: A Practical Introduction*. DOI:10.1002/9780470447710
