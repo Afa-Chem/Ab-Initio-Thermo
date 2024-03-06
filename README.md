@@ -64,7 +64,6 @@ Where $` E_{elec}`$ is the energy of the stationary point on the PES.
 
 #### Canonical ensemble
 
-We assume that our ensemble is an ideal gas. This implies that gas molecules do not interact with each other. 
 The partition function for the canonical ensemble is written as 
 
 $$
@@ -88,6 +87,23 @@ $$
 $$
 G = H - TS
 $$
+
+#### Gas phase approximation
+
+We assume that our ensemble is an ideal gas. This implies that gas molecules do not interact with each other. 
+
+$$
+Q(N,V,T) = \dfrac{[q(V,T)]^N}{N!}
+$$
+
+Where the factor $`1/N! `$ derives from the quantum mechanical indistinguishability of the particles. Now we assume
+that the molecular energy $` \varepsilon `$ can be expressed as a separable sum of electronic, translational, rotational, 
+and vibrational terms. 
+$$
+q(V,T) = q_{elec}(T)q_{trans}(V,T)q_{rot}(T)q_{vib}(T)
+$$
+
+
 
 ## References
 * David S. Sholl, Janice A. Steckel. (2009). *Density Functional Theory: A Practical Introduction*. DOI:10.1002/9780470447710
