@@ -64,13 +64,30 @@ Where $` E_{elec}`$ is the energy of the stationary point on the PES.
 
 #### Canonical ensemble
 
+We assume that our ensemble is an ideal gas. This implies that gas molecules do not interact with each other. 
 The partition function for the canonical ensemble is written as 
 
 $$
 Q(N,V,T) = \sum_i e^{E_i(N,V)/kT}
 $$
 
-Where i runs over all possible energy states of the system.  
+Where i runs over all possible energy states of the system. The thermodynamic potentials are defined by the expressions
+
+$$
+U = kT^2 \bigg ( \dfrac{\partial ln \ Q}{\partial T} \bigg )_{N,V}
+$$
+
+$$
+H = U + PV
+$$
+
+$$
+S = k ln \ Q + kT \bigg ( \dfrac{\partial ln \ Q}{\partial T} \bigg )_{N,V}
+$$
+
+$$
+G = H - TS
+$$
 
 ## References
 * David S. Sholl, Janice A. Steckel. (2009). *Density Functional Theory: A Practical Introduction*. DOI:10.1002/9780470447710
