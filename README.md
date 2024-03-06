@@ -104,6 +104,8 @@ $$
 q(V,T) = q_{elec}(T)q_{trans}(V,T)q_{rot}(T)q_{vib}(T)
 $$
 
+#### Electronic contribution 
+
 
 
 ## References
