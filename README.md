@@ -142,7 +142,15 @@ $$
 For non-linear molecules gives
 
 $$
-q_{rot} (T) = \dfrac{\sqrt{\pi I_A I_B I_C}}{\sigma} \bigg ( \dfrac{8\pi^2 I k T}{\sigma  h^2} \bigg )^{3/2}
+q_{rot} (T) = \dfrac{\sqrt{\pi I_A I_B I_C}}{\sigma} \bigg ( \dfrac{8\pi^2 k T}{h^2} \bigg )^{3/2} \qquad \qquad
+U_{rot} = \dfrac{3}{2} RT   \qquad \qquad
+S_{rot} = R \bigg [  ln \bigg (   \dfrac{\sqrt{\pi I_A I_B I_C}}{\sigma} \bigg ( \dfrac{8\pi^2 k T}{h^2} \bigg )^{3/2} \bigg ] + \dfrac{3}{2} R
+$$
+
+#### Molecular Vibrational Partition Function
+
+$$
+q_{vib}(T) = \prod_{i=1}^{3N-6} \bigg ( \dfrac{1}{1-e^{-h\omega_i/kT}}  \bigg ) 
 $$
 
 
