@@ -1,4 +1,4 @@
-## Initial considerations
+# Initial considerations
 
 **Fundamental questions**:
 
@@ -12,7 +12,7 @@
 
 At constant T and P in a single-component system, the phase that is observed is the one which has the lowest Gibbs free energy per particle, or, equivalently, the lowest chemical potential μ(T, P).
 
-## General Theory
+# General Theory
 Grand potential of a metal oxide can be expressed as 
 
 $$ \Omega (T,\mu_O, \mu_M) = E(N_M, N_O) - TS - \mu_O N_O - \mu_M N_M$$
@@ -34,7 +34,7 @@ The chemical potential of molecular oxygen and atomic oxygen are related by
 $$  \mu_O = \dfrac{1}{2} \mu_{O_2}  $$
 
 
-## Theory for metal clusters
+# Theory for metal clusters
 The grand potential ($` \Omega `$) divided by N and assuming a constant number of metal atoms (e.g. Pt$`_2 `$)
 
 $$  \omega (T,\mu_O, n) = \Delta E_{F,corr} (T) - T \cdot S_{Pt_2(O_2)n} + T \cdot S_{Pt_2}  - n \cdot \tilde \mu_{O_2} (p, T)  $$
@@ -54,15 +54,15 @@ Where $` \Delta H_{O_2} `$  and $` S_{O_2} `$ are taken from the NIST database. 
 
 $$  \mu_{O_2}  = E_{O_2} + \tilde \mu_{O_2}   $$
 
-## Thermochemistry
+# Thermochemistry
 
-#### Zero-point vibrational energy
+### Zero-point vibrational energy
 
 $$ E_0 = U_0 = E_{elec} + \sum_{i}^{modes} \dfrac{1}{2} h \omega_i  $$
 
 Where $` E_{elec}`$ is the energy of the stationary point on the PES. 
 
-#### Canonical ensemble
+### Canonical ensemble
 
 The partition function for the canonical ensemble is written as 
 
@@ -88,7 +88,7 @@ $$
 G = H - TS
 $$
 
-#### Gas phase approximation
+### Gas phase approximation
 
 We assume that our ensemble is an ideal gas. This implies that gas molecules do not interact with each other. 
 
@@ -104,7 +104,7 @@ $$
 q(V,T) = q_{elec}(T)q_{trans}(V,T)q_{rot}(T)q_{vib}(T)
 $$
 
-#### Molecular electronic partition function
+### Molecular electronic partition function
 
 The electronic contribution of entropy and internal energy is 
 
@@ -112,7 +112,7 @@ $$
 U_{elec} = 0 \qquad \qquad S_{elec} = R \ ln(2S + 1)
 $$
 
-#### Molecular translational partition function
+### Molecular translational partition function
 
 The usual standard state is 1 atm pressure (corresponding to a standard-state molar volume of 24.5 L at 298 K). 
 The thermodynamic potential for the translational contribution gives 
@@ -125,7 +125,7 @@ The superscript "o" indicates that a "standard state" is being referred. This co
 $`  S_{trans}^{o} `$ can be computed trivially as soon as the molecular weigth is specified. The translational partition function is a function of both temperature and volume.
 
 
-#### Molecular Rotational Partition Function
+### Molecular Rotational Partition Function
 
 For linear molecules
 
@@ -147,12 +147,23 @@ U_{rot} = \dfrac{3}{2} RT   \qquad \qquad
 S_{rot} = R \bigg [  ln \bigg (   \dfrac{\sqrt{\pi I_A I_B I_C}}{\sigma} \bigg ( \dfrac{8\pi^2 k T}{h^2} \bigg )^{3/2} \bigg ] + \dfrac{3}{2} R
 $$
 
-#### Molecular Vibrational Partition Function
+### Molecular Vibrational Partition Function
+
+The full partition function for a non-linear molecule is 
 
 $$
 q_{vib}(T) = \prod_{i=1}^{3N-6} \bigg ( \dfrac{1}{1-e^{-h\omega_i/kT}}  \bigg ) 
 $$
 
+Upper limit would be 3N -5 for linear molecules. The thermodynamic potentials are
+
+$$
+U_{vib} = R \sum_{i=1}^{3N-6} \dfrac{h\omega_i}{k(e^{h\omega_i/kT}-1)}   
+$$
+
+$$
+S_{vib} = R \sum_{i=1}^{3N-6} \bigg [ \dfrac{h\omega_i}{kT(e^{h\omega_i/kT}-1)} -ln(1-e^{-h\omega_i/kT}) \bigg ]
+$$
 
 
 ## References
