@@ -121,7 +121,12 @@ $$
 U_{trans} = \dfrac{3}{2} RT \qquad \qquad S_{trans}^{o} = R  ln \bigg [ \bigg ( \dfrac{2\pi M k T}{h^2} \bigg )^{3/2} \dfrac{kT}{P^o} \bigg ] + \dfrac{5}{2}  R
 $$
 
-The superscript 'o' indicates that a "standard state" is being referred. 
+The superscript "o" indicates that a "standard state" is being referred. This contribution is independent of the molecular structure. 
+$`  S_{trans}^{o} `$ can be computed trivially as soon as the molecular weigth is specified. The translational partition function is a function of both temperature and volume.
+
+
+
+
 
 
 ## References
