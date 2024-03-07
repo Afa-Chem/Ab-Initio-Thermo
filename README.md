@@ -133,6 +133,18 @@ $$
 q_{rot}^{linear} (T) = \dfrac{8\pi^2 I k T}{\sigma  h^2} 
 $$
 
+Donde $` \sigma `$ is 1 for asymmetric linear molecules and 2 for symmetric linear molecules. The thermodynamic potentials using the partition function gives 
+
+$$
+U_{rot}^{linear} = RT \qquad \qquad S_{rot}^{linear} = R \bigg [  ln \bigg (  \dfrac{8\pi^2 I k T}{\sigma h^2} \bigg ) + 1 \bigg ]
+$$
+
+For non-linear molecules gives
+
+$$
+q_{rot} (T) = \dfrac{\sqrt{\pi I_A I_B I_C}}{\sigma} \bigg ( \dfrac{8\pi^2 I k T}{\sigma  h^2} \bigg )^{3/2}
+$$
+
 
 
 ## References
