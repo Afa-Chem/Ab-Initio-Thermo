@@ -125,7 +125,13 @@ The superscript "o" indicates that a "standard state" is being referred. This co
 $`  S_{trans}^{o} `$ can be computed trivially as soon as the molecular weigth is specified. The translational partition function is a function of both temperature and volume.
 
 
+#### Molecular Rotational Partition Function
 
+For linear molecules
+
+$$
+q_{rot}^{linear} (T) = \dfrac{8\pi^2 I k T}{\sigma  h^2} 
+$$
 
 
 
